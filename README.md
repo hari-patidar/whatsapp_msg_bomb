@@ -1,9 +1,15 @@
-# whatsapp_msg_bomb
+whatsapp_msg_bomb
 
-It is basically a whatsapp message bombing tool which was developed by me during Covid Lockdown.
+* Description: A script designed to send multiple messages to a WhatsApp contact in quick succession.
 
-The idea of developing this was basicaaly to reply to a friend who used to spam messages to me using some apps. So I developed my own such tool to overcome the situation.
+* Features:
+        1. Automates message sending to a specified contact.
+        2. Allows customization of the message content and the number of repetitions.
 
-It uses selenium web testing library to use whatsapp web as a source to send messages. Also it uses some basic python packages and functions to send a user provided number of messages to a particular person in the contacts of the user.
+* Usage Instructions:
+        1. Set up WhatsApp Web and ensure it's logged in.
+        2. Specify the contact, message, and repetition count in the script.
+        2. Execute the script to send the messages.
 
-The GUI for this tool is also developed and is user friendly so that anyone can have fun with there friends.
+* Dependencies: Requires Python and the pywhatkit library.
+
